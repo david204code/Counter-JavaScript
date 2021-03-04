@@ -12,4 +12,10 @@ const btns = document.querySelectorAll(".btn");
 // access each any every button
 btns.forEach(function (btn) {
   // console.log(btn);
+
+  // add eventListner
+  btn.addEventListener("click", function (e) {
+    // console.log(e.currentTarget);
+    const style = e.currentTarget.classList;
+  });
 });
